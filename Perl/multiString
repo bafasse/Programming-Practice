@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+$str = "This is
+a multi-line
+String!";
+
+print "$str\n\n";
+
+print <<EOF;
+This is
+also a multiline
+string
+EOF

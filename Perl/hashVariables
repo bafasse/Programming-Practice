@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+%data = ('John', 45, 'Paul', 47, 'Jones', 60);
+
+print "\$data{John} = $data{John}\n";
+print "\$data{Paul} = $data{Paul}\n";
+print "\$data{Jones} = $data{Jones}\n";

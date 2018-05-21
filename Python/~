@@ -1,0 +1,13 @@
+phonebook = {}
+phonebook["John"] = 2727272727
+phonebook["Jill"] = 7272727272
+phonebook["Hank"] = 8282828282
+
+print(phonebook)
+
+phonebook{
+        "John" : 21212121212
+        "Jill" : 65656565656
+        "Hank" : 64564646464
+}
+print(phonebook)

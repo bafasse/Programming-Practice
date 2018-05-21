@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+$age = 15;
+$name = "John";
+$salary = 435.50;
+
+print "Age = $age\n";
+print "name = $name\n";
+print "Salary = $salary\n";;
