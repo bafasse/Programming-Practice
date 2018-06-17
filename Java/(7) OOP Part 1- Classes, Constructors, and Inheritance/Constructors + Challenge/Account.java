@@ -16,7 +16,11 @@ public class Account {
 		this.balance              = balance;
 		this.customerName         = customerName;
 		this.customerEmail        = customerEmail;
-		this.customerPhoneNumber  = customerPhoneNumber
+		this.customerPhoneNumber  = customerPhoneNumber;
+	}
+
+	public Account(String customerName, String customerEmail, String customerPhoneNumber) {
+		this("99999", 100.55, customerName, customerEmail, customerPhoneNumber);
 	}
 
     public void deposit(double depositAmount) {
